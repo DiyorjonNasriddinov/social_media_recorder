@@ -124,6 +124,7 @@ class _SocialMediaRecorder extends State<SocialMediaRecorder> {
       startRecording: widget.startRecording ?? () {},
       stopRecording: widget.stopRecording ?? (String x) {},
       sendRequestFunction: widget.sendRequestFunction,
+      encode: widget.encode,
     );
 
     soundRecordNotifier.initialStorePathRecord =

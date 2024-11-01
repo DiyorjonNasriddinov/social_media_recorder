@@ -21,6 +21,9 @@ enum AudioEncoderType {
   // ignore: constant_identifier_names
   AMR_WB,
 
+  // ignore: constant_identifier_names
+  OGG,
+
   /// Will output to MPEG_4 format container.
   /// /!\ SDK 29 on Android /!\
   /// /!\ SDK 11 on iOs /!\

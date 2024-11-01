@@ -137,6 +137,9 @@ class SoundRecordNotifier extends ChangeNotifier {
         encode == AudioEncoderType.AAC_HE ||
         encode == AudioEncoderType.OPUS) {
       return ".m4a";
+    }
+    if (encode == AudioEncoderType.OGG) {
+      return ".ogg";
     } else {
       return ".3gp";
     }
